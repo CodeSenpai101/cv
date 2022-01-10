@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>My Contact</title>
+</head>
+<body>
+  <h1>My Contact</h1>
+  <p>arekushisu18@gmail.com</p>
+<hr>
+<!-- when user hits submit, it mails me to my email. Also any text they enter will not be with percentages because of enctype -->
+  <form action="mailto:arekushisu18@gmail.com"enctype="text/plain">
+    <!-- here we are displaying "your name" to the user -->
+    <label>Your Name:</label><br>
+    <input type="text" value="" name="yourName"> <br>
+    <label>Your Email:</label><br>
+    <!-- text input for email -->
+    <input type="email" name="yourEmail"> <br>
+    <!-- text input for name -->
+    <label>Your Message:</label><br>
+    <textarea rows="10" cols="30" name="yourMessage"></textarea> <br>
+    <input type="submit">
+    <!-- submit button -->  
+  </form>
+</body>
+</html>
